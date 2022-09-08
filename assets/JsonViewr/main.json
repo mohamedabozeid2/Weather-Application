@@ -3,6 +3,7 @@
     "lon": 31.2497,
     "lat": 30.0626
   },
+
   "weather": [
     {
       "id": 802,
@@ -11,7 +12,9 @@
       "icon": "03d"
     }
   ],
+
   "base": "stations",
+
   "main": {
     "temp": 305.57,
     "feels_like": 306.65,
@@ -20,7 +23,9 @@
     "pressure": 1008,
     "humidity": 43
   },
+
   "visibility": 10000,
+
   "wind": {
     "speed": 4.63,
     "deg": 350
