@@ -1,9 +1,5 @@
 class SysModel{
-  // "type": 1,
-  // "id": 2514,
-  // "country": "EG",
-  // "sunrise": 1662521713,
-  // "sunset": 1662567085
+
   int? type;
   int? id;
   String? country;

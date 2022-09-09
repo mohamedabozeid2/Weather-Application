@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:weather/Modules/HomeScreen/HomeScreen.dart';
+import 'package:weather/Shared/Network/Remote/DioHelper.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+
+  DioHelper.init();
+
   runApp(const MyApp());
 }
 

@@ -3,8 +3,8 @@ class MainWeatherModel {
   double? feels_like;
   double? temp_min;
   double? temp_max;
-  double? pressure;
-  double? humidity;
+  int? pressure;
+  int? humidity;
 
   MainWeatherModel(
       {required this.temp,
