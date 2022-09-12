@@ -1,10 +1,10 @@
 class SysModel{
 
-  int? type;
-  int? id;
-  String? country;
-  int? sunrise;
-  int? sunset;
+  dynamic type;
+  dynamic id;
+  dynamic country;
+  dynamic sunrise;
+  dynamic sunset;
 
   SysModel({
     required this.id,

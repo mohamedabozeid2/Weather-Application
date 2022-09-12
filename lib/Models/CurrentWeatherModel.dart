@@ -10,15 +10,15 @@ class CurrentWeatherModel {
   List<WeatherModel> weather = [];
   String? base;
   MainWeatherModel? mainWeather;
-  int? visibility;
+  dynamic visibility;
   CloudModel? cloud;
   WindModel? wind;
-  int? dt;
+  dynamic dt;
   SysModel? sys;
-  int? timezone;
-  int? id;
+   dynamic timezone;
+  dynamic id;
   String? name;
-  int? cod;
+  dynamic cod;
 
   CurrentWeatherModel(
       {required this.coord,

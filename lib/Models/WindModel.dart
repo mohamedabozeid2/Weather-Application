@@ -1,6 +1,6 @@
 class WindModel{
-  double? speed;
-  int? deg;
+  dynamic speed;
+  dynamic deg;
 
   WindModel({required this.speed, required this.deg});
 

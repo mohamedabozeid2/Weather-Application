@@ -1,10 +1,10 @@
 class MainWeatherModel {
-  double? temp;
-  double? feels_like;
-  double? temp_min;
-  double? temp_max;
-  int? pressure;
-  int? humidity;
+  dynamic temp;
+  dynamic feels_like;
+  dynamic temp_min;
+  dynamic temp_max;
+  dynamic pressure;
+  dynamic humidity;
 
   MainWeatherModel(
       {required this.temp,

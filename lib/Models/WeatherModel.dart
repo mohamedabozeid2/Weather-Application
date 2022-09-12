@@ -1,5 +1,5 @@
 class WeatherModel{
-  int? id;
+  dynamic id;
   String? main;
   String? description;
   String? icon;

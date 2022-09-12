@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 var defaultColor = const Color(0xff5967a4);
-var secondDefaultColor = const Color(0xff0c1f40);
+var secondDefaultColor = const Color(0xff690f30);
 var thirdDefaultColor = const Color(0xff097e76);
 var buttonColor = const Color(0xff04BD92);
 var dropDownMenuColor = thirdDefaultColor;
@@ -48,23 +48,27 @@ var dropDownMenuColor = thirdDefaultColor;
 // );
 
 ThemeData lightTheme = ThemeData(
-  textTheme: TextTheme(
+  textTheme: const TextTheme(
       bodyText1: TextStyle(
-        fontSize: 30.0,
-        fontWeight: FontWeight.bold,
-        color: defaultColor,
-      ),
+          fontSize: 30.0,
+          fontWeight: FontWeight.bold,
+          color: Colors.black,
+          fontFamily: 'flutterfonts'),
       subtitle1: TextStyle(
           fontSize: 14.0,
           fontWeight: FontWeight.w600,
-          color: Colors.white,
-          height: 1.3),
+          color: Colors.black,
+          height: 1.3,
+          fontFamily: 'flutterfonts'),
       bodyText2: TextStyle(
-          fontSize: 20.0, fontWeight: FontWeight.w600, color: defaultColor)),
+          fontSize: 20.0,
+          fontWeight: FontWeight.w600,
+          color: Colors.black,
+          fontFamily: 'flutterfonts')),
   primarySwatch: Colors.blue,
   floatingActionButtonTheme:
-  FloatingActionButtonThemeData(backgroundColor: defaultColor),
-  scaffoldBackgroundColor: secondDefaultColor,
+      FloatingActionButtonThemeData(backgroundColor: defaultColor),
+  scaffoldBackgroundColor: Colors.white,
   appBarTheme: AppBarTheme(
     iconTheme: const IconThemeData(color: Colors.white),
     actionsIconTheme: const IconThemeData(color: Colors.white),
@@ -77,8 +81,9 @@ ThemeData lightTheme = ThemeData(
     elevation: 0.0,
     backgroundColor: Colors.transparent,
     systemOverlayStyle: SystemUiOverlayStyle(
-      statusBarColor: secondDefaultColor,
-      statusBarIconBrightness: Brightness.light,
+      statusBarColor: Colors.white,
+      statusBarIconBrightness: Brightness.dark,
+      statusBarBrightness: Brightness.dark
     ),
   ),
   bottomNavigationBarTheme: BottomNavigationBarThemeData(

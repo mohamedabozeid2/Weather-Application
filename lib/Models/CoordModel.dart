@@ -1,6 +1,6 @@
 class Coord {
-  double? lon;
-  double? lat;
+  dynamic lon;
+  dynamic lat;
 
   Coord({required this.lon, required this.lat});
 

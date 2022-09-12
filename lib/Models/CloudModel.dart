@@ -1,5 +1,5 @@
 class CloudModel{
-  int? all;
+  dynamic all;
   CloudModel({required this.all});
 
   CloudModel.fromJson(Map<String, dynamic> json){
